@@ -21,7 +21,7 @@ Anotherframe= tk.Frame(dom,width = 100,height = 1800, bd = 18, relief = "sunken"
 Anotherframe.pack(side = tk.TOP)
 ##---------------------------------------------------------#creating a label and naming the GUI#--------------------------------------------------------------------------------------------
 
-mylabe = tk.Label(Heading, font=('verdana', 50, 'bold'), text='Dominic unit convertor', padx=2, pady=2, bd=2,
+mylabe = tk.Label(Heading, font=('verdana', 50, 'bold'), text='Unit convertor', padx=2, pady=2, bd=2,
                   fg="blue").grid(row=0, column=2, sticky=tk.W)
 
 # -----Declaring the state for input buttons------------------------------------------------------------------------------------------------------------------------------------------------
